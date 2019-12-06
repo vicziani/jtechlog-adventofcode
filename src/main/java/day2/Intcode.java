@@ -8,6 +8,8 @@ import java.util.stream.Collectors;
 
 public class Intcode {
 
+    public static final int MAX_VALUE = 99;
+
     private int[] code;
 
     int position = 0;

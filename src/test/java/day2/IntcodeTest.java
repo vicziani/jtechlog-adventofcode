@@ -33,6 +33,5 @@ public class IntcodeTest {
         intcode.replace(2, 2);
         intcode.execute();
         assertEquals(3409710, intcode.getCode()[0]);
-        System.out.println(intcode);
     }
 }
